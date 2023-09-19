@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DZmKpirlJkUAIKbYEJG/+dLilFQRnCqkhQTgCVkQYGU=",
+  "Source": "OrchardModule",
+  "BasePath": "_content/OrchardModule",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

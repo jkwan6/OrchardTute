@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "lh5LzIMkQ5meI0+M0AQbbYG8IBQU0Fef2mEfZGN6dLs=",
+  "Source": "OrchardCoreTheme",
+  "BasePath": "_content/OrchardCoreTheme",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
