@@ -9,6 +9,7 @@
       "OrchardModule/1.0.0": {
         "dependencies": {
           "OrchardCore.DisplayManagement": "1.7.0",
+          "OrchardCore.Media.Abstractions": "1.7.0",
           "OrchardCore.Module.Targets": "1.7.0"
         },
         "runtime": {
@@ -240,6 +241,7 @@
           "NETStandard.Library": "1.6.1"
         }
       },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.0": {},
       "Microsoft.Extensions.Primitives/1.1.1": {
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -334,6 +336,18 @@
           }
         }
       },
+      "OrchardCore.ContentManagement.Abstractions/1.7.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "OrchardCore.Data.YesSql.Abstractions": "1.7.0"
+        },
+        "runtime": {
+          "lib/net7.0/OrchardCore.ContentManagement.Abstractions.dll": {
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
+          }
+        }
+      },
       "OrchardCore.Data.Abstractions/1.7.0": {
         "dependencies": {
           "OrchardCore.Abstractions": "1.7.0",
@@ -341,6 +355,19 @@
         },
         "runtime": {
           "lib/net7.0/OrchardCore.Data.Abstractions.dll": {
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
+          }
+        }
+      },
+      "OrchardCore.Data.YesSql.Abstractions/1.7.0": {
+        "dependencies": {
+          "OrchardCore.Abstractions": "1.7.0",
+          "OrchardCore.Data.Abstractions": "1.7.0",
+          "YesSql.Abstractions": "3.3.0"
+        },
+        "runtime": {
+          "lib/net7.0/OrchardCore.Data.YesSql.Abstractions.dll": {
             "assemblyVersion": "1.7.0.0",
             "fileVersion": "1.7.0.0"
           }
@@ -365,6 +392,14 @@
       "OrchardCore.DisplayManagement.Abstractions/1.7.0": {
         "runtime": {
           "lib/net7.0/OrchardCore.DisplayManagement.Abstractions.dll": {
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
+          }
+        }
+      },
+      "OrchardCore.FileStorage.Abstractions/1.7.0": {
+        "runtime": {
+          "lib/net7.0/OrchardCore.FileStorage.Abstractions.dll": {
             "assemblyVersion": "1.7.0.0",
             "fileVersion": "1.7.0.0"
           }
@@ -397,6 +432,19 @@
       "OrchardCore.Localization.Abstractions/1.7.0": {
         "runtime": {
           "lib/net7.0/OrchardCore.Localization.Abstractions.dll": {
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
+          }
+        }
+      },
+      "OrchardCore.Media.Abstractions/1.7.0": {
+        "dependencies": {
+          "OrchardCore.Abstractions": "1.7.0",
+          "OrchardCore.ContentManagement.Abstractions": "1.7.0",
+          "OrchardCore.FileStorage.Abstractions": "1.7.0"
+        },
+        "runtime": {
+          "lib/net7.0/OrchardCore.Media.Abstractions.dll": {
             "assemblyVersion": "1.7.0.0",
             "fileVersion": "1.7.0.0"
           }
@@ -1079,6 +1127,17 @@
           }
         }
       },
+      "YesSql.Abstractions/3.3.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.0"
+        },
+        "runtime": {
+          "lib/net7.0/YesSql.Abstractions.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "ZString/2.5.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -1196,6 +1255,13 @@
       "path": "microsoft.extensions.fileproviders.abstractions/1.1.1",
       "hashPath": "microsoft.extensions.fileproviders.abstractions.1.1.1.nupkg.sha512"
     },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jjo4YXRx6MIpv6DiRxJjSpl+sPP0+5VW0clMEdLyIAz44PPwrDTFrd5PZckIxIXl1kKZ2KK6IL2nkt0+ug2MQg==",
+      "path": "microsoft.extensions.logging.abstractions/3.1.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.Primitives/1.1.1": {
       "type": "package",
       "serviceable": true,
@@ -1252,12 +1318,26 @@
       "path": "orchardcore.abstractions/1.7.0",
       "hashPath": "orchardcore.abstractions.1.7.0.nupkg.sha512"
     },
+    "OrchardCore.ContentManagement.Abstractions/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TJYrMZUFiSH1grAf1QxanQ51IaiRk3e08lTgv1tPP8hv1+VeYazFm/fxL5eW2tq8fMWqrrAkMag+HwfPltoxbA==",
+      "path": "orchardcore.contentmanagement.abstractions/1.7.0",
+      "hashPath": "orchardcore.contentmanagement.abstractions.1.7.0.nupkg.sha512"
+    },
     "OrchardCore.Data.Abstractions/1.7.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-De/Xd9ItENDVL2KD1MdJTms20uH5vZQiGjbzlOHkYrQHpPxXM6PCAIumsrkk7/AQuhGbI9SYWK+BjdkMHKoW4w==",
       "path": "orchardcore.data.abstractions/1.7.0",
       "hashPath": "orchardcore.data.abstractions.1.7.0.nupkg.sha512"
+    },
+    "OrchardCore.Data.YesSql.Abstractions/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8Nw6qCc6raZ2/0MXyljeX4tJrwFUWEwV1SpFQwQkITBrpL49+hGqoSB3lXYOUfu3IxwxLPRRjmmH7DspEWN6kA==",
+      "path": "orchardcore.data.yessql.abstractions/1.7.0",
+      "hashPath": "orchardcore.data.yessql.abstractions.1.7.0.nupkg.sha512"
     },
     "OrchardCore.DisplayManagement/1.7.0": {
       "type": "package",
@@ -1272,6 +1352,13 @@
       "sha512": "sha512-WQe2Y3CyR2czXc3uVQ2XKMDbkVayFhdsm35c/uxOm9IYVQuiDetCSkPjUwscSxIAGYNnJJ9sv7qYXOk4rE/Q7g==",
       "path": "orchardcore.displaymanagement.abstractions/1.7.0",
       "hashPath": "orchardcore.displaymanagement.abstractions.1.7.0.nupkg.sha512"
+    },
+    "OrchardCore.FileStorage.Abstractions/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YnFxVSz5PTpTmJMVrYvfJnRP0sZ84GS1QkWSMG7xRVFE0XIzTyW01YSCp3mhDNW8+YOolkNMNhGH7hNtPbK/PQ==",
+      "path": "orchardcore.filestorage.abstractions/1.7.0",
+      "hashPath": "orchardcore.filestorage.abstractions.1.7.0.nupkg.sha512"
     },
     "OrchardCore.Infrastructure.Abstractions/1.7.0": {
       "type": "package",
@@ -1293,6 +1380,13 @@
       "sha512": "sha512-bxB41SvRF4Ca0Cg4peTB7avwJQpr1RHssI+uvbqsqGOCroXInR/KN1oWh5GwIvegOwMdeKSG1XiIw+d9n9jniA==",
       "path": "orchardcore.localization.abstractions/1.7.0",
       "hashPath": "orchardcore.localization.abstractions.1.7.0.nupkg.sha512"
+    },
+    "OrchardCore.Media.Abstractions/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/fcKsMBNvmONz7AWxM6VDZLqCDoO18E/yvVlqhpIHeSmeydT8PgQC/2l1W+RLVP2wurhUwQ+le6sQmGdjpnQpQ==",
+      "path": "orchardcore.media.abstractions/1.7.0",
+      "hashPath": "orchardcore.media.abstractions.1.7.0.nupkg.sha512"
     },
     "OrchardCore.Module.Targets/1.7.0": {
       "type": "package",
@@ -1874,6 +1968,13 @@
       "sha512": "sha512-vvhLOgRSOvfq5fBv0/Dd1S3N7K2ibO5wp06B5AkuxUpXkgv2aDHw9jB5ZvPg83y9sy+jF9qE7qWybMK46BXBuw==",
       "path": "timezoneconverter/6.0.1",
       "hashPath": "timezoneconverter.6.0.1.nupkg.sha512"
+    },
+    "YesSql.Abstractions/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZCKiobV4zisQUjsBL/SDdqHIjb7ThC3dXRQ7sDBb3lUdgXiNOqTXw1gzTmfzyJLpbiKON4rZEBflPVvKNioBEg==",
+      "path": "yessql.abstractions/3.3.0",
+      "hashPath": "yessql.abstractions.3.3.0.nupkg.sha512"
     },
     "ZString/2.5.0": {
       "type": "package",

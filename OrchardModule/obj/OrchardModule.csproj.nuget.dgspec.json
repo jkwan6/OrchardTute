@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[1.7.0, )"
             },
+            "OrchardCore.Media.Abstractions": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
             "OrchardCore.Module.Targets": {
               "target": "Package",
               "version": "[1.7.0, )"

@@ -99,6 +99,7 @@ using System.Reflection;
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.Alias")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.AdminMenu")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.AdminDashboard")]
+[assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("StatCan.OrchardCore.Queries.GraphQL")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCoreTheme")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardModule")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrchardCoreDojo")]

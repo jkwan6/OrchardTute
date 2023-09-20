@@ -10,7 +10,8 @@
         "dependencies": {
           "OrchardCore.Application.Cms.Targets": "1.7.0",
           "OrchardCoreTheme": "1.0.0",
-          "OrchardModule": "1.0.0"
+          "OrchardModule": "1.0.0",
+          "StatCan.OrchardCore.Queries.GraphQL": "1.0.0"
         },
         "runtime": {
           "OrchardCoreDojo.dll": {}
@@ -5769,10 +5770,31 @@
       "OrchardModule/1.0.0": {
         "dependencies": {
           "OrchardCore.DisplayManagement": "1.7.0",
+          "OrchardCore.Media.Abstractions": "1.7.0",
           "OrchardCore.Module.Targets": "1.7.0"
         },
         "runtime": {
           "OrchardModule.dll": {}
+        }
+      },
+      "StatCan.OrchardCore.Manifest/1.0.0": {
+        "runtime": {
+          "StatCan.OrchardCore.Manifest.dll": {}
+        }
+      },
+      "StatCan.OrchardCore.Queries.GraphQL/1.0.0": {
+        "dependencies": {
+          "OrchardCore.Admin.Abstractions": "1.7.0",
+          "OrchardCore.Apis.GraphQL.Abstractions": "1.7.0",
+          "OrchardCore.DisplayManagement": "1.7.0",
+          "OrchardCore.Module.Targets": "1.7.0",
+          "OrchardCore.Navigation.Core": "1.7.0",
+          "OrchardCore.Queries.Abstractions": "1.7.0",
+          "OrchardCore.ResourceManagement": "1.7.0",
+          "StatCan.OrchardCore.Manifest": "1.0.0"
+        },
+        "runtime": {
+          "StatCan.OrchardCore.Queries.GraphQL.dll": {}
         }
       }
     }
@@ -9030,6 +9052,16 @@
       "sha512": ""
     },
     "OrchardModule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StatCan.OrchardCore.Manifest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StatCan.OrchardCore.Queries.GraphQL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

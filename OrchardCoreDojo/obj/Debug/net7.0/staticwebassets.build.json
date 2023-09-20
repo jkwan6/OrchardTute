@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VDTx9XEbkxVQpdfBdM3GqtlWDfoUvrXvxCfM4lXo2mE=",
+  "Hash": "roVJyL91OKX42HsPfnqt2aS/vWSaP6XeNTKcPsqYh7U=",
   "Source": "OrchardCoreDojo",
   "BasePath": "_content/OrchardCoreDojo",
   "Mode": "Default",
@@ -25,6 +25,17 @@
       "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Downloads\\StatCan.OrchardCore-master\\StatCan.OrchardCore-master\\src\\Modules\\StatCan.OrchardCore.Queries.GraphQL\\StatCan.OrchardCore.Queries.GraphQL.csproj",
+      "Version": 1,
+      "Source": "StatCan.OrchardCore.Queries.GraphQL",
+      "GetPublishAssetsTargets": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectStaticWebAssetsV2",
       "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }

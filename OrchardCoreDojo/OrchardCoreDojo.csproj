@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\Downloads\StatCan.OrchardCore-master\StatCan.OrchardCore-master\src\Modules\StatCan.OrchardCore.Queries.GraphQL\StatCan.OrchardCore.Queries.GraphQL.csproj" />
     <ProjectReference Include="..\OrchardCoreTheme\OrchardCoreTheme.csproj" />
     <ProjectReference Include="..\OrchardModule\OrchardModule.csproj" />
   </ItemGroup>

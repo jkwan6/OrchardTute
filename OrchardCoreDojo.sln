@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Theme", "Theme", "{4D5CE4D6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrchardCoreTheme", "OrchardCoreTheme\OrchardCoreTheme.csproj", "{DD3504B7-175A-4A86-9ED6-9B3CB713A944}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatCan.OrchardCore.Queries.GraphQL", "..\..\..\..\..\Downloads\StatCan.OrchardCore-master\StatCan.OrchardCore-master\src\Modules\StatCan.OrchardCore.Queries.GraphQL\StatCan.OrchardCore.Queries.GraphQL.csproj", "{7B39277B-963B-4ADA-BCAA-D0BE80C7A3E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DD3504B7-175A-4A86-9ED6-9B3CB713A944}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD3504B7-175A-4A86-9ED6-9B3CB713A944}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD3504B7-175A-4A86-9ED6-9B3CB713A944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B39277B-963B-4ADA-BCAA-D0BE80C7A3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B39277B-963B-4ADA-BCAA-D0BE80C7A3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B39277B-963B-4ADA-BCAA-D0BE80C7A3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B39277B-963B-4ADA-BCAA-D0BE80C7A3E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

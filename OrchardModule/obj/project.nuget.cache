@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6ndV1ItmopKJPmh1W7kYbXFWdV857ZLhPYCjVTJhG/xtNt29wGCGORKxeEDJ7e1nQq/ws5oW864gsQ950FPOIQ==",
+  "dgSpecHash": "FaxahVLBWiszyfu4oemdGGUhpu4eWRKiL5/OWh1qjh9LNUsx7q1/Oix7wlB2Cq7JpMr+LfENtRTmp0Gz2NGetw==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Documents\\C# Projects\\OrchardExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardModule\\OrchardModule.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\1.1.1\\microsoft.extensions.fileproviders.abstractions.1.1.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.0\\microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\1.1.1\\microsoft.extensions.primitives.1.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
@@ -26,12 +27,16 @@
     "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\orchardcore.abstractions\\1.7.0\\orchardcore.abstractions.1.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\orchardcore.contentmanagement.abstractions\\1.7.0\\orchardcore.contentmanagement.abstractions.1.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\orchardcore.data.abstractions\\1.7.0\\orchardcore.data.abstractions.1.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\orchardcore.data.yessql.abstractions\\1.7.0\\orchardcore.data.yessql.abstractions.1.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\orchardcore.displaymanagement\\1.7.0\\orchardcore.displaymanagement.1.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\orchardcore.displaymanagement.abstractions\\1.7.0\\orchardcore.displaymanagement.abstractions.1.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\orchardcore.filestorage.abstractions\\1.7.0\\orchardcore.filestorage.abstractions.1.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\orchardcore.infrastructure.abstractions\\1.7.0\\orchardcore.infrastructure.abstractions.1.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\orchardcore.liquid.abstractions\\1.7.0\\orchardcore.liquid.abstractions.1.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\orchardcore.localization.abstractions\\1.7.0\\orchardcore.localization.abstractions.1.7.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\orchardcore.media.abstractions\\1.7.0\\orchardcore.media.abstractions.1.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\orchardcore.module.targets\\1.7.0\\orchardcore.module.targets.1.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\orchardcore.mvc.core\\1.7.0\\orchardcore.mvc.core.1.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\orchardcore.queries.abstractions\\1.7.0\\orchardcore.queries.abstractions.1.7.0.nupkg.sha512",
@@ -115,6 +120,7 @@
     "C:\\Users\\User\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\timezoneconverter\\6.0.1\\timezoneconverter.6.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\yessql.abstractions\\3.3.0\\yessql.abstractions.3.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\zstring\\2.5.0\\zstring.2.5.0.nupkg.sha512"
   ],
   "logs": []

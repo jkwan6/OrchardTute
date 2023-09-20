@@ -9420,6 +9420,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "OrchardCore.DisplayManagement": "1.7.0",
+          "OrchardCore.Media.Abstractions": "1.7.0",
           "OrchardCore.Module.Targets": "1.7.0"
         },
         "compile": {
@@ -9428,6 +9429,42 @@
         "runtime": {
           "bin/placeholder/OrchardModule.dll": {}
         }
+      },
+      "StatCan.OrchardCore.Manifest/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/StatCan.OrchardCore.Manifest.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StatCan.OrchardCore.Manifest.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "StatCan.OrchardCore.Queries.GraphQL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "OrchardCore.Admin.Abstractions": "1.0.0",
+          "OrchardCore.Apis.GraphQL.Abstractions": "1.0.0",
+          "OrchardCore.DisplayManagement": "1.0.0",
+          "OrchardCore.Module.Targets": "1.0.0",
+          "OrchardCore.Navigation.Core": "1.0.0",
+          "OrchardCore.Queries.Abstractions": "1.0.0",
+          "OrchardCore.ResourceManagement": "1.0.0",
+          "StatCan.OrchardCore.Manifest": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StatCan.OrchardCore.Queries.GraphQL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StatCan.OrchardCore.Queries.GraphQL.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -26486,13 +26523,24 @@
       "type": "project",
       "path": "../OrchardModule/OrchardModule.csproj",
       "msbuildProject": "../OrchardModule/OrchardModule.csproj"
+    },
+    "StatCan.OrchardCore.Manifest/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../Downloads/StatCan.OrchardCore-master/StatCan.OrchardCore-master/src/Lib/StatCan.OrchardCore.Manifest/StatCan.OrchardCore.Manifest.csproj",
+      "msbuildProject": "../../../../../../Downloads/StatCan.OrchardCore-master/StatCan.OrchardCore-master/src/Lib/StatCan.OrchardCore.Manifest/StatCan.OrchardCore.Manifest.csproj"
+    },
+    "StatCan.OrchardCore.Queries.GraphQL/1.0.0": {
+      "type": "project",
+      "path": "../../../../../../Downloads/StatCan.OrchardCore-master/StatCan.OrchardCore-master/src/Modules/StatCan.OrchardCore.Queries.GraphQL/StatCan.OrchardCore.Queries.GraphQL.csproj",
+      "msbuildProject": "../../../../../../Downloads/StatCan.OrchardCore-master/StatCan.OrchardCore-master/src/Modules/StatCan.OrchardCore.Queries.GraphQL/StatCan.OrchardCore.Queries.GraphQL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "OrchardCore.Application.Cms.Targets >= 1.7.0",
       "OrchardCoreTheme >= 1.0.0",
-      "OrchardModule >= 1.0.0"
+      "OrchardModule >= 1.0.0",
+      "StatCan.OrchardCore.Queries.GraphQL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -26532,6 +26580,9 @@
             },
             "C:\\Users\\User\\Documents\\C# Projects\\OrchardExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardModule\\OrchardModule.csproj": {
               "projectPath": "C:\\Users\\User\\Documents\\C# Projects\\OrchardExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardModule\\OrchardModule.csproj"
+            },
+            "C:\\Users\\User\\Downloads\\StatCan.OrchardCore-master\\StatCan.OrchardCore-master\\src\\Modules\\StatCan.OrchardCore.Queries.GraphQL\\StatCan.OrchardCore.Queries.GraphQL.csproj": {
+              "projectPath": "C:\\Users\\User\\Downloads\\StatCan.OrchardCore-master\\StatCan.OrchardCore-master\\src\\Modules\\StatCan.OrchardCore.Queries.GraphQL\\StatCan.OrchardCore.Queries.GraphQL.csproj"
             }
           }
         }

@@ -306,6 +306,19 @@
           }
         }
       },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Primitives/1.1.1": {
         "type": "package",
         "dependencies": {
@@ -452,6 +465,26 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "OrchardCore.ContentManagement.Abstractions/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "OrchardCore.Data.YesSql.Abstractions": "1.7.0"
+        },
+        "compile": {
+          "lib/net7.0/OrchardCore.ContentManagement.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/OrchardCore.ContentManagement.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "OrchardCore.Data.Abstractions/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -465,6 +498,27 @@
         },
         "runtime": {
           "lib/net7.0/OrchardCore.Data.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "OrchardCore.Data.YesSql.Abstractions/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "OrchardCore.Abstractions": "1.7.0",
+          "OrchardCore.Data.Abstractions": "1.7.0",
+          "YesSql.Abstractions": "3.3.0"
+        },
+        "compile": {
+          "lib/net7.0/OrchardCore.Data.YesSql.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/OrchardCore.Data.YesSql.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -505,6 +559,22 @@
         },
         "runtime": {
           "lib/net7.0/OrchardCore.DisplayManagement.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "OrchardCore.FileStorage.Abstractions/1.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/OrchardCore.FileStorage.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/OrchardCore.FileStorage.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -561,6 +631,27 @@
         },
         "runtime": {
           "lib/net7.0/OrchardCore.Localization.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "OrchardCore.Media.Abstractions/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "OrchardCore.Abstractions": "1.7.0",
+          "OrchardCore.ContentManagement.Abstractions": "1.7.0",
+          "OrchardCore.FileStorage.Abstractions": "1.7.0"
+        },
+        "compile": {
+          "lib/net7.0/OrchardCore.Media.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/OrchardCore.Media.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -2005,6 +2096,22 @@
           }
         }
       },
+      "YesSql.Abstractions/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.0"
+        },
+        "compile": {
+          "lib/net7.0/YesSql.Abstractions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/YesSql.Abstractions.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "ZString/2.5.0": {
         "type": "package",
         "dependencies": {
@@ -2482,6 +2589,20 @@
         "microsoft.extensions.fileproviders.abstractions.nuspec"
       ]
     },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.0": {
+      "sha512": "jjo4YXRx6MIpv6DiRxJjSpl+sPP0+5VW0clMEdLyIAz44PPwrDTFrd5PZckIxIXl1kKZ2KK6IL2nkt0+ug2MQg==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "Microsoft.Extensions.Primitives/1.1.1": {
       "sha512": "MrsHOyFpwT+LBzGWp/Oq3pV1Vku8FYE6hgO+2XR0WBRtoI9EaJcpRbtBabS7pXYrkIN1/LOXACpZ9Stqmbrs6A==",
       "type": "package",
@@ -2645,6 +2766,22 @@
         "orchardcore.abstractions.nuspec"
       ]
     },
+    "OrchardCore.ContentManagement.Abstractions/1.7.0": {
+      "sha512": "TJYrMZUFiSH1grAf1QxanQ51IaiRk3e08lTgv1tPP8hv1+VeYazFm/fxL5eW2tq8fMWqrrAkMag+HwfPltoxbA==",
+      "type": "package",
+      "path": "orchardcore.contentmanagement.abstractions/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.ContentManagement.Abstractions.dll",
+        "lib/net6.0/OrchardCore.ContentManagement.Abstractions.xml",
+        "lib/net7.0/OrchardCore.ContentManagement.Abstractions.dll",
+        "lib/net7.0/OrchardCore.ContentManagement.Abstractions.xml",
+        "orchardcore.contentmanagement.abstractions.1.7.0.nupkg.sha512",
+        "orchardcore.contentmanagement.abstractions.nuspec"
+      ]
+    },
     "OrchardCore.Data.Abstractions/1.7.0": {
       "sha512": "De/Xd9ItENDVL2KD1MdJTms20uH5vZQiGjbzlOHkYrQHpPxXM6PCAIumsrkk7/AQuhGbI9SYWK+BjdkMHKoW4w==",
       "type": "package",
@@ -2659,6 +2796,22 @@
         "lib/net7.0/OrchardCore.Data.Abstractions.xml",
         "orchardcore.data.abstractions.1.7.0.nupkg.sha512",
         "orchardcore.data.abstractions.nuspec"
+      ]
+    },
+    "OrchardCore.Data.YesSql.Abstractions/1.7.0": {
+      "sha512": "8Nw6qCc6raZ2/0MXyljeX4tJrwFUWEwV1SpFQwQkITBrpL49+hGqoSB3lXYOUfu3IxwxLPRRjmmH7DspEWN6kA==",
+      "type": "package",
+      "path": "orchardcore.data.yessql.abstractions/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.Data.YesSql.Abstractions.dll",
+        "lib/net6.0/OrchardCore.Data.YesSql.Abstractions.xml",
+        "lib/net7.0/OrchardCore.Data.YesSql.Abstractions.dll",
+        "lib/net7.0/OrchardCore.Data.YesSql.Abstractions.xml",
+        "orchardcore.data.yessql.abstractions.1.7.0.nupkg.sha512",
+        "orchardcore.data.yessql.abstractions.nuspec"
       ]
     },
     "OrchardCore.DisplayManagement/1.7.0": {
@@ -2691,6 +2844,22 @@
         "lib/net7.0/OrchardCore.DisplayManagement.Abstractions.xml",
         "orchardcore.displaymanagement.abstractions.1.7.0.nupkg.sha512",
         "orchardcore.displaymanagement.abstractions.nuspec"
+      ]
+    },
+    "OrchardCore.FileStorage.Abstractions/1.7.0": {
+      "sha512": "YnFxVSz5PTpTmJMVrYvfJnRP0sZ84GS1QkWSMG7xRVFE0XIzTyW01YSCp3mhDNW8+YOolkNMNhGH7hNtPbK/PQ==",
+      "type": "package",
+      "path": "orchardcore.filestorage.abstractions/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.FileStorage.Abstractions.dll",
+        "lib/net6.0/OrchardCore.FileStorage.Abstractions.xml",
+        "lib/net7.0/OrchardCore.FileStorage.Abstractions.dll",
+        "lib/net7.0/OrchardCore.FileStorage.Abstractions.xml",
+        "orchardcore.filestorage.abstractions.1.7.0.nupkg.sha512",
+        "orchardcore.filestorage.abstractions.nuspec"
       ]
     },
     "OrchardCore.Infrastructure.Abstractions/1.7.0": {
@@ -2739,6 +2908,22 @@
         "lib/net7.0/OrchardCore.Localization.Abstractions.xml",
         "orchardcore.localization.abstractions.1.7.0.nupkg.sha512",
         "orchardcore.localization.abstractions.nuspec"
+      ]
+    },
+    "OrchardCore.Media.Abstractions/1.7.0": {
+      "sha512": "/fcKsMBNvmONz7AWxM6VDZLqCDoO18E/yvVlqhpIHeSmeydT8PgQC/2l1W+RLVP2wurhUwQ+le6sQmGdjpnQpQ==",
+      "type": "package",
+      "path": "orchardcore.media.abstractions/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.Media.Abstractions.dll",
+        "lib/net6.0/OrchardCore.Media.Abstractions.xml",
+        "lib/net7.0/OrchardCore.Media.Abstractions.dll",
+        "lib/net7.0/OrchardCore.Media.Abstractions.xml",
+        "orchardcore.media.abstractions.1.7.0.nupkg.sha512",
+        "orchardcore.media.abstractions.nuspec"
       ]
     },
     "OrchardCore.Module.Targets/1.7.0": {
@@ -6316,6 +6501,29 @@
         "timezoneconverter.nuspec"
       ]
     },
+    "YesSql.Abstractions/3.3.0": {
+      "sha512": "ZCKiobV4zisQUjsBL/SDdqHIjb7ThC3dXRQ7sDBb3lUdgXiNOqTXw1gzTmfzyJLpbiKON4rZEBflPVvKNioBEg==",
+      "type": "package",
+      "path": "yessql.abstractions/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/YesSql.Abstractions.dll",
+        "lib/net5.0/YesSql.Abstractions.pdb",
+        "lib/net5.0/YesSql.Abstractions.xml",
+        "lib/net6.0/YesSql.Abstractions.dll",
+        "lib/net6.0/YesSql.Abstractions.pdb",
+        "lib/net6.0/YesSql.Abstractions.xml",
+        "lib/net7.0/YesSql.Abstractions.dll",
+        "lib/net7.0/YesSql.Abstractions.pdb",
+        "lib/net7.0/YesSql.Abstractions.xml",
+        "lib/netcoreapp3.1/YesSql.Abstractions.dll",
+        "lib/netcoreapp3.1/YesSql.Abstractions.pdb",
+        "lib/netcoreapp3.1/YesSql.Abstractions.xml",
+        "yessql.abstractions.3.3.0.nupkg.sha512",
+        "yessql.abstractions.nuspec"
+      ]
+    },
     "ZString/2.5.0": {
       "sha512": "xd503npIf5kAN8LAugMlOthWIPQGsyp/rvLxuPlTrHFf28YyYyDfsdLz1n3tvd+87PiAXZrJh0gtWulWtcBTGg==",
       "type": "package",
@@ -6336,6 +6544,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "OrchardCore.DisplayManagement >= 1.7.0",
+      "OrchardCore.Media.Abstractions >= 1.7.0",
       "OrchardCore.Module.Targets >= 1.7.0"
     ]
   },
@@ -6384,6 +6593,10 @@
         "targetAlias": "net7.0",
         "dependencies": {
           "OrchardCore.DisplayManagement": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
+          "OrchardCore.Media.Abstractions": {
             "target": "Package",
             "version": "[1.7.0, )"
           },

@@ -427,3 +427,6 @@ C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreD
 C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\OrchardCoreDojo\obj\Debug\net7.0\OrchardCoreDojo.csproj.CopyComplete
 C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\OrchardCoreDojo\obj\Debug\net7.0\OrchardCoreDojo.genruntimeconfig.cache
 C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\OrchardCoreDojo\obj\Debug\net7.0\ref\OrchardCoreDojo.dll
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\OrchardCoreDojo\bin\Debug\net7.0\StatCan.OrchardCore.Queries.GraphQL.Views.dll
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\OrchardCoreDojo\bin\Debug\net7.0\StatCan.OrchardCore.Manifest.dll
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\OrchardCoreDojo\bin\Debug\net7.0\StatCan.OrchardCore.Queries.GraphQL.dll

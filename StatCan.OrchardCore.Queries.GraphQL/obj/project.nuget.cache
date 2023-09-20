@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "13bIF8z6q9p02R0bGBSNMr9QjTXy467DqP6Mkrs/SVIIuY+B3rVFXSFGN1AyB45oPVNFysKKd45uZeXw6n0jmw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\User\\Documents\\C# Projects\\OrchardExperiments\\OrchardTutes\\OrchardCoreDojo\\StatCan.OrchardCore.Queries.GraphQL\\StatCan.OrchardCore.Queries.GraphQL.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to read project information for 'StatCan.OrchardCore.Queries.GraphQL': Invalid framework identifier ''."
+    }
+  ]
+}
