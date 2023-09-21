@@ -4,14 +4,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@RenderTitleSegments(Site.SiteName, "before")</title>
-    <style asp-src="~/DojoCourse.Theme/site.css"></style>
-    <script asp-src="~/DojoCourse.Theme/site.js" at="Head"></script>
+@*     <style asp-src="~/DojoCourse.Theme/site.css"></style>
+    <script asp-src="~/DojoCourse.Theme/site.js" at="Head"></script> *@
+
+    <style asp-src="~/OrchardCoreTheme/site.css"></style>
+    <script asp-src="~/OrchardCoreTheme/site.js"></script>
     <resources type="Meta" />
     <resources type="HeadLink" />
     <resources type="Stylesheet" />
     <resources type="HeadScript" />
     @await RenderSectionAsync("HeadMeta", required: false)
 </head>
+
+
 <body dir="@Orchard.CultureDir()">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
@@ -25,23 +30,31 @@
         </div>
     </nav>
     @await RenderSectionAsync("Header", required: false)
+
+
     <main role="main" class="container">
-        @await RenderSectionAsync("Messages", required: false)
-        @if (User != null)
+    @await RenderSectionAsync("Messages", required: false)
+
+        @if(User != null)
         {
-            @T["Hello, {0}!", User.Identity.Name]
+            @T["Hello {0}!", User.Identity.Name]
+
         }
 
         @{
-            var blogpostCount = 1;
+            var blogPostCount = 3;
         }
-        @T.Plural(blogpostCount, "Here is one blog post.", "Here are {0} blog posts.")
 
-        @*<shape type="AdhocShape" message="@T["This is as parameter."]" />*@
-        @await DisplayAsync(await New.AdhocShape(Message: T["This is as parameter."], User: User))
+        @T.Plural(blogPostCount, "Here is one blog post.", "Here are {0} blog posts")
+
+
+        @await DisplayAsync(await New.AdhocShape(Message: T["This is a parameter"], User: User))
+
 
         @await RenderBodyAsync()
     </main>
+
+
     @await RenderSectionAsync("Footer", required: false)
     <resources type="FootScript" />
 </body>

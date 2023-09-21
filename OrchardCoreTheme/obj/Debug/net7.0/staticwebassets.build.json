@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "lh5LzIMkQ5meI0+M0AQbbYG8IBQU0Fef2mEfZGN6dLs=",
+  "Hash": "Qhmp6+3zquWkwq+KWDlux5ZxuMtf7oMPqAw6x8NSvV0=",
   "Source": "OrchardCoreTheme",
   "BasePath": "_content/OrchardCoreTheme",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "OrchardCoreTheme\\wwwroot",
+      "Source": "OrchardCoreTheme",
+      "ContentRoot": "C:\\Users\\User\\Documents\\C# Projects\\OrchardExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardCoreTheme\\wwwroot\\",
+      "BasePath": "_content/OrchardCoreTheme",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

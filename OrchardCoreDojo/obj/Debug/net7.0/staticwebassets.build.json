@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "roVJyL91OKX42HsPfnqt2aS/vWSaP6XeNTKcPsqYh7U=",
+  "Hash": "UxMEhttzi0qdUOQisNyjM3kFQoWBm+npJe2R1fPbI+w=",
   "Source": "OrchardCoreDojo",
   "BasePath": "_content/OrchardCoreDojo",
   "Mode": "Default",
@@ -27,17 +27,6 @@
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
       "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
-    },
-    {
-      "Identity": "C:\\Users\\User\\Downloads\\StatCan.OrchardCore-master\\StatCan.OrchardCore-master\\src\\Modules\\StatCan.OrchardCore.Queries.GraphQL\\StatCan.OrchardCore.Queries.GraphQL.csproj",
-      "Version": 1,
-      "Source": "StatCan.OrchardCore.Queries.GraphQL",
-      "GetPublishAssetsTargets": "",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
-      "GetBuildAssetsTargets": "GetCurrentProjectStaticWebAssetsV2",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
   "DiscoveryPatterns": [
@@ -46,6 +35,13 @@
       "Source": "OrchardCoreDojo",
       "ContentRoot": "C:\\Users\\User\\Documents\\C# Projects\\OrchardExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardCoreDojo\\wwwroot\\",
       "BasePath": "_content/OrchardCoreDojo",
+      "Pattern": "**"
+    },
+    {
+      "Name": "OrchardCoreTheme\\wwwroot",
+      "Source": "OrchardCoreTheme",
+      "ContentRoot": "C:\\Users\\User\\Documents\\C# Projects\\OrchardExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardCoreTheme\\wwwroot\\",
+      "BasePath": "_content/OrchardCoreTheme",
       "Pattern": "**"
     }
   ],

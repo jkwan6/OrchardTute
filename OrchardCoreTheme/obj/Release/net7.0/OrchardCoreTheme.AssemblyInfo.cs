@@ -24,6 +24,10 @@ using System.Reflection;
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCoreTheme\\Views\\_ViewImports.cshtml|C:\\Users\\User\\Documents\\C# Proje" +
     "cts\\OrchardExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardCoreTheme\\Views\\_View" +
     "Imports.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCoreTheme\\wwwroot\\site.css|C:\\Users\\User\\Documents\\C# Projects\\Orcha" +
+    "rdExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardCoreTheme\\wwwroot\\site.css")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCoreTheme\\wwwroot\\site.js|C:\\Users\\User\\Documents\\C# Projects\\Orchar" +
+    "dExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardCoreTheme\\wwwroot\\site.js")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrchardCoreTheme")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

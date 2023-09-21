@@ -18,3 +18,4 @@ C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreD
 C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\OrchardCoreTheme\obj\Debug\net7.0\refint\OrchardCoreTheme.dll
 C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\OrchardCoreTheme\obj\Debug\net7.0\OrchardCoreTheme.pdb
 C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\OrchardCoreTheme\obj\Debug\net7.0\ref\OrchardCoreTheme.dll
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\OrchardCoreTheme\bin\Debug\net7.0\OrchardCoreTheme.staticwebassets.runtime.json
