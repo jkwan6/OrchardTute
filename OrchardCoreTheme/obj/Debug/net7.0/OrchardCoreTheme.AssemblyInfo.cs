@@ -12,6 +12,8 @@ using System;
 using System.Reflection;
 
 [assembly: OrchardCore.Modules.Manifest.ModuleMarkerAttribute("OrchardCoreTheme", "Theme")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCoreTheme\\placement.json|C:\\Users\\User\\Documents\\C# Projects\\Orchard" +
+    "Experiments\\OrchardTutes\\OrchardCoreDojo\\OrchardCoreTheme\\placement.json")]
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCoreTheme\\Views\\AdhocShape.cshtml|C:\\Users\\User\\Documents\\C# Project" +
     "s\\OrchardExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardCoreTheme\\Views\\AdhocSh" +
     "ape.cshtml")]

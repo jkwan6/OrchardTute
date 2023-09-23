@@ -25,6 +25,7 @@
     <Import Project="$(NuGetPackageRoot)orchardcore.admin\1.7.0\build\OrchardCore.Admin.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.admin\1.7.0\build\OrchardCore.Admin.props')" />
     <Import Project="$(NuGetPackageRoot)theadmin\1.7.0\build\TheAdmin.props" Condition="Exists('$(NuGetPackageRoot)theadmin\1.7.0\build\TheAdmin.props')" />
     <Import Project="$(NuGetPackageRoot)safemode\1.7.0\build\SafeMode.props" Condition="Exists('$(NuGetPackageRoot)safemode\1.7.0\build\SafeMode.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.contentfields\1.7.0\build\OrchardCore.ContentFields.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.contentfields\1.7.0\build\OrchardCore.ContentFields.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.title\1.7.0\build\OrchardCore.Title.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.title\1.7.0\build\OrchardCore.Title.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.xmlrpc\1.7.0\build\OrchardCore.XmlRpc.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.xmlrpc\1.7.0\build\OrchardCore.XmlRpc.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.workflows\1.7.0\build\OrchardCore.Workflows.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.workflows\1.7.0\build\OrchardCore.Workflows.props')" />
@@ -113,7 +114,6 @@
     <Import Project="$(NuGetPackageRoot)orchardcore.contents\1.7.0\build\OrchardCore.Contents.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.contents\1.7.0\build\OrchardCore.Contents.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.contentpreview\1.7.0\build\OrchardCore.ContentPreview.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.contentpreview\1.7.0\build\OrchardCore.ContentPreview.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.contentlocalization\1.7.0\build\OrchardCore.ContentLocalization.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.contentlocalization\1.7.0\build\OrchardCore.ContentLocalization.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.contentfields\1.7.0\build\OrchardCore.ContentFields.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.contentfields\1.7.0\build\OrchardCore.ContentFields.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.backgroundtasks\1.7.0\build\OrchardCore.BackgroundTasks.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.backgroundtasks\1.7.0\build\OrchardCore.BackgroundTasks.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.autosetup\1.7.0\build\OrchardCore.AutoSetup.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.autosetup\1.7.0\build\OrchardCore.AutoSetup.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.autoroute\1.7.0\build\OrchardCore.Autoroute.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.autoroute\1.7.0\build\OrchardCore.Autoroute.props')" />

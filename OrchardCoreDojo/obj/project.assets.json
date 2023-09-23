@@ -9422,6 +9422,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "OrchardCore.ContentFields": "1.7.0",
           "OrchardCore.DisplayManagement": "1.7.0",
           "OrchardCore.Media.Abstractions": "1.7.0",
           "OrchardCore.Module.Targets": "1.7.0"

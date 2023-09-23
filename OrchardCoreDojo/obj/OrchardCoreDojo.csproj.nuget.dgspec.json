@@ -203,6 +203,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "OrchardCore.ContentFields": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
             "OrchardCore.DisplayManagement": {
               "target": "Package",
               "version": "[1.7.0, )"

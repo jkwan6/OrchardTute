@@ -30,7 +30,7 @@ namespace DojoCourse.Module.Controllers
         public ActionResult Index()
         {
             ViewData["Message"] = T["Hello abcdsadasddefgh World"];
-            _notifier.Success(H["Hello World!"]);
+            _notifier.SuccessAsync(H["Hello World!"]);
             _logger.LogError(T["Message"]);
             return View();
         }
