@@ -21,28 +21,52 @@ namespace OrchardModule.Migrations
 
         public int Create()
         {
-            _contentDefinitionManager.AlterPartDefinition(
-                nameof(PersonPart), 
-                part => part
-                    .Attachable()
-                    .WithField(
-                        nameof(PersonPart.Biography), 
-                        field => field.OfType(nameof(TextField))
+            _contentDefinitionManager.AlterPartDefinition(nameof(PersonPart), part => part
+                .Attachable()
+                .WithField(nameof(PersonPart.Biography), field => field
+                    .OfType(nameof(TextField))
                     .WithDisplayName("Biography")
                     .WithSettings(new TextFieldSettings
-                        {
-                            Hint = "The person's biography"
-                        })
-                    .WithEditor("TextArea")));
+                    {
+                        Hint = "The person's biography."
+                    })
+                    .WithEditor("TextArea"))
+            );
 
-            _contentDefinitionManager.AlterTypeDefinition(
-                nameof(PersonPart), 
-                type => type
-                    .Creatable()
-                    .Listable()
-                    .WithPart(nameof(PersonPart)));
+            _contentDefinitionManager.AlterTypeDefinition("PersonPage", type => type
+                .Creatable()
+                .Listable()
+                .WithPart(nameof(PersonPart))
+            );
+
+
 
             return 1;
+        }
+
+        public int UpdateFrom1()
+        {
+            _contentDefinitionManager.AlterPartDefinition(nameof(PersonPart), part => part
+                .Attachable()
+                .WithField(nameof(PersonPart.Biography), field => field
+                    .OfType(nameof(TextField))
+                    .WithDisplayName("Biography")
+                    .WithSettings(new TextFieldSettings
+                    {
+                        Hint = "The person's biography."
+                    })
+                    .WithEditor("TextArea"))
+            );
+
+            _contentDefinitionManager.AlterTypeDefinition("PersonPage", type => type
+                .Creatable()
+                .Listable()
+                .WithPart(nameof(PersonPart))
+            );
+
+
+
+            return 2;
         }
 
     }

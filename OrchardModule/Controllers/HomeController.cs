@@ -4,7 +4,7 @@ using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
 using OrchardCore.DisplayManagement.Notify;
 
-namespace DojoCourse.Module.Controllers
+namespace OrchardModule.Controllers
 {
     public class HomeController : Controller
     {

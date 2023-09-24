@@ -15,6 +15,15 @@ using System.Reflection;
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardModule\\Views\\Home\\Index.cshtml|C:\\Users\\User\\Documents\\C# Projects\\O" +
     "rchardExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardModule\\Views\\Home\\Index.cs" +
     "html")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardModule\\Views\\PersonPart.cshtml|C:\\Users\\User\\Documents\\C# Projects\\O" +
+    "rchardExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardModule\\Views\\PersonPart.cs" +
+    "html")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardModule\\Views\\PersonPart.Edit.cshtml|C:\\Users\\User\\Documents\\C# Proje" +
+    "cts\\OrchardExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardModule\\Views\\PersonPa" +
+    "rt.Edit.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardModule\\Views\\_ViewImports.cshtml|C:\\Users\\User\\Documents\\C# Projects" +
+    "\\OrchardExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardModule\\Views\\_ViewImport" +
+    "s.cshtml")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrchardModule")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
