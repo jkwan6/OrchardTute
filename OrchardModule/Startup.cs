@@ -8,8 +8,11 @@ using OrchardCore.ContentManagement.Display.ContentDisplay;
 using OrchardCore.Data.Migration;
 using OrchardCore.Modules;
 using OrchardModule.Drivers;
+using OrchardModule.Handlers;
+using OrchardModule.Indexes;
 using OrchardModule.Migrations;
 using OrchardModule.Models;
+using YesSql.Indexes;
 
 namespace OrchardModule
 {
@@ -17,7 +20,12 @@ namespace OrchardModule
     {
         public override void ConfigureServices(IServiceCollection services)
         {
-            services.AddContentPart<PersonPart>().UseDisplayDriver<ParsonPartDisplayDriver>();
+            services.AddContentPart<PersonPart>()
+                .UseDisplayDriver<ParsonPartDisplayDriver>()
+                .AddHandler<PersonPartHandler>();
+
+            services.AddSingleton<IIndexProvider, PersonPartIndexProvider>();
+
             services.AddScoped<IDataMigration, PersonMigrations>();
         }
 

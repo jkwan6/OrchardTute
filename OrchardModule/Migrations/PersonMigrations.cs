@@ -3,12 +3,14 @@ using OrchardCore.ContentFields.Settings;
 using OrchardCore.ContentManagement.Metadata;
 using OrchardCore.ContentManagement.Metadata.Settings;
 using OrchardCore.Data.Migration;
+using OrchardModule.Indexes;
 using OrchardModule.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using YesSql.Sql;
 
 namespace OrchardModule.Migrations
 {
@@ -69,5 +71,24 @@ namespace OrchardModule.Migrations
             return 2;
         }
 
+        public int UpdateFrom2()
+        {
+            _contentDefinitionManager.AlterTypeDefinition("PersonPage", type => type
+                .WithPart(nameof(PersonPart))
+                .Stereotype("Widget"));
+            return 3;
+        }
+
+        public int UpdateFrom3()
+        {
+
+            SchemaBuilder.CreateMapIndexTable(nameof(PersonPartIndex),
+                table => table
+                .Column<string>(nameof(PersonPartIndex.ContentItemId), column => column.WithLength(26))
+                .Column<DateTime>(nameof(PersonPartIndex.BirthDateUtc)));
+
+
+            return 4;
+        }
     }
 }
