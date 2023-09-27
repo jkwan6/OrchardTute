@@ -24,7 +24,10 @@ namespace OrchardModule.Indexes
             context.For<PersonPartIndex>().Map(contentItem =>
             {
                 var personPart = contentItem.As<PersonPart>();
-                var x = (personPart == null) ? null : new PersonPartIndex{};
+                var x = (personPart == null) ? null : new PersonPartIndex{
+                    ContentItemId = contentItem.ContentItemId, 
+                    BirthDateUtc = personPart.BirthDateUtc,
+                };
                 return x;
             });
     }

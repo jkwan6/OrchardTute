@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using OrchardCore.ContentManagement;
 using OrchardCore.ContentManagement.Records;
 using OrchardModule.Models;
+using OrchardModule.Indexes;
+using OrchardCore.Modules;
 
 namespace OrchardModule.Controllers
 {
@@ -15,16 +17,21 @@ namespace OrchardModule.Controllers
     {
         private readonly ISession _session;
         private readonly IContentManager _contentManager;
+        private readonly IClock _clock;
 
-        public PersonController(ISession session, IContentManager contentManager)
+        public PersonController(ISession session, IContentManager contentManager, IClock clock)
         {
             _session = session;
             _contentManager = contentManager;
+            _clock = clock;
         }
 
         public async Task<String> List()
         {
-            var personPages = await _session.Query<ContentItem, ContentItemIndex>(index => index.ContentType == "PersonPage")
+            var threshold = _clock.UtcNow.AddYears(-40);
+            var personPages = await _session
+                .Query<ContentItem, ContentItemIndex>(index => index.ContentType == "PersonPage")
+                .With<PersonPartIndex>(personPartIndex => personPartIndex.BirthDateUtc > threshold)
                 .ListAsync();
         
             foreach(var personPage in personPages)

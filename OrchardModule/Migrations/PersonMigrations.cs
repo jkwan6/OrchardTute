@@ -7,10 +7,12 @@ using OrchardModule.Indexes;
 using OrchardModule.Models;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using YesSql.Sql;
+using YesSql.Sql.Schema;
 
 namespace OrchardModule.Migrations
 {
@@ -81,14 +83,23 @@ namespace OrchardModule.Migrations
 
         public int UpdateFrom3()
         {
-
-            SchemaBuilder.CreateMapIndexTable(nameof(PersonPartIndex),
-                table => table
+            SchemaBuilder
+                .CreateMapIndexTable<PersonPartIndex>(table => table
                 .Column<string>(nameof(PersonPartIndex.ContentItemId), column => column.WithLength(26))
-                .Column<DateTime>(nameof(PersonPartIndex.BirthDateUtc)));
+                .Column<string>(nameof(PersonPartIndex.BirthDateUtc)));
 
-
+            SchemaBuilder.AlterTable(nameof(PersonPartIndex), table => table.CreateIndex
+            (
+                $"IDX_{nameof(PersonPartIndex)}_{nameof(PersonPartIndex.BirthDateUtc)}",
+                nameof(PersonPartIndex.BirthDateUtc))
+            );
             return 4;
+        }
+
+        public int UpdateFrom4()
+        {
+            SchemaBuilder.AlterTable(nameof(PersonPartIndex), table => table.AddColumn<DateTime>(nameof(PersonPartIndex.BirthDateUtc)));
+            return 5;
         }
     }
 }
