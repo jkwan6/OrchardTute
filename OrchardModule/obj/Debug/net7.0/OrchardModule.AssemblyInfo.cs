@@ -15,6 +15,9 @@ using System.Reflection;
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardModule\\Views\\Home\\Index.cshtml|C:\\Users\\User\\Documents\\C# Projects\\O" +
     "rchardExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardModule\\Views\\Home\\Index.cs" +
     "html")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardModule\\Views\\LayoutInjectedShape.cshtml|C:\\Users\\User\\Documents\\C# P" +
+    "rojects\\OrchardExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardModule\\Views\\Layo" +
+    "utInjectedShape.cshtml")]
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardModule\\Views\\PersonPart.cshtml|C:\\Users\\User\\Documents\\C# Projects\\O" +
     "rchardExperiments\\OrchardTutes\\OrchardCoreDojo\\OrchardModule\\Views\\PersonPart.cs" +
     "html")]
