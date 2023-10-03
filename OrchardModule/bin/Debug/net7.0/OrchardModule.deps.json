@@ -10,11 +10,35 @@
         "dependencies": {
           "OrchardCore.ContentFields": "1.7.0",
           "OrchardCore.DisplayManagement": "1.7.0",
+          "OrchardCore.Infrastructure": "1.7.0",
           "OrchardCore.Media.Abstractions": "1.7.0",
           "OrchardCore.Module.Targets": "1.7.0"
         },
         "runtime": {
           "OrchardModule.dll": {}
+        }
+      },
+      "AngleSharp/0.17.1": {
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Text.Encoding.CodePages": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AngleSharp.dll": {
+            "assemblyVersion": "0.17.1.0",
+            "fileVersion": "0.17.1.0"
+          }
+        }
+      },
+      "AngleSharp.Css/0.17.0": {
+        "dependencies": {
+          "AngleSharp": "0.17.1"
+        },
+        "runtime": {
+          "lib/net7.0/AngleSharp.Css.dll": {
+            "assemblyVersion": "0.17.0.0",
+            "fileVersion": "0.17.0.0"
+          }
         }
       },
       "Azure.Core/1.24.0": {
@@ -48,6 +72,14 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.6.0.0",
             "fileVersion": "1.600.22.20503"
+          }
+        }
+      },
+      "BouncyCastle.Cryptography/2.2.1": {
+        "runtime": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.1.47552"
           }
         }
       },
@@ -112,6 +144,19 @@
           "lib/netstandard2.0/GraphQL.DataLoader.dll": {
             "assemblyVersion": "4.8.0.0",
             "fileVersion": "4.8.0.0"
+          }
+        }
+      },
+      "HtmlSanitizer/8.0.692": {
+        "dependencies": {
+          "AngleSharp": "0.17.1",
+          "AngleSharp.Css": "0.17.0",
+          "System.Collections.Immutable": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HtmlSanitizer.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.692.0"
           }
         }
       },
@@ -185,11 +230,11 @@
       "Microsoft.CodeAnalysis.Common/4.0.0": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "3.3.2",
-          "System.Collections.Immutable": "5.0.0",
+          "System.Collections.Immutable": "7.0.0",
           "System.Memory": "4.5.4",
           "System.Reflection.Metadata": "5.0.0",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "System.Text.Encoding.CodePages": "5.0.0",
+          "System.Text.Encoding.CodePages": "7.0.0",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "runtime": {
@@ -323,7 +368,7 @@
           "System.Runtime.Caching": "5.0.0",
           "System.Security.Cryptography.Cng": "5.0.0",
           "System.Security.Principal.Windows": "5.0.0",
-          "System.Text.Encoding.CodePages": "5.0.0",
+          "System.Text.Encoding.CodePages": "7.0.0",
           "System.Text.Encodings.Web": "7.0.0"
         },
         "runtime": {
@@ -546,11 +591,33 @@
           }
         }
       },
+      "MimeKit/4.2.0": {
+        "dependencies": {
+          "BouncyCastle.Cryptography": "2.2.1",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Security.Cryptography.Pkcs": "7.0.2",
+          "System.Text.Encoding.CodePages": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/MimeKit.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
       "MySqlConnector/2.2.1": {
         "runtime": {
           "lib/net7.0/MySqlConnector.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.2.1.0"
+          }
+        }
+      },
+      "NCrontab/3.3.3": {
+        "runtime": {
+          "lib/netstandard2.0/NCrontab.dll": {
+            "assemblyVersion": "3.3.3.0",
+            "fileVersion": "3.3.3.0"
           }
         }
       },
@@ -621,6 +688,17 @@
           }
         }
       },
+      "NodaTime/3.1.9": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/NodaTime.dll": {
+            "assemblyVersion": "3.1.9.0",
+            "fileVersion": "3.1.9.0"
+          }
+        }
+      },
       "Npgsql/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
@@ -630,6 +708,21 @@
           "lib/net7.0/Npgsql.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "OrchardCore/1.7.0": {
+        "dependencies": {
+          "NodaTime": "3.1.9",
+          "OrchardCore.Abstractions": "1.7.0",
+          "OrchardCore.Infrastructure.Abstractions": "1.7.0",
+          "OrchardCore.Localization.Abstractions": "1.7.0",
+          "NCrontab": "3.3.3"
+        },
+        "runtime": {
+          "lib/net7.0/OrchardCore.dll": {
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
           }
         }
       },
@@ -888,6 +981,21 @@
         },
         "runtime": {
           "lib/net7.0/OrchardCore.Indexing.Abstractions.dll": {
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
+          }
+        }
+      },
+      "OrchardCore.Infrastructure/1.7.0": {
+        "dependencies": {
+          "HtmlSanitizer": "8.0.692",
+          "MimeKit": "4.2.0",
+          "OrchardCore": "1.7.0",
+          "OrchardCore.Data.YesSql": "1.7.0",
+          "OrchardCore.Infrastructure.Abstractions": "1.7.0"
+        },
+        "runtime": {
+          "lib/net7.0/OrchardCore.Infrastructure.dll": {
             "assemblyVersion": "1.7.0.0",
             "fileVersion": "1.7.0.0"
           }
@@ -1290,7 +1398,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
-      "System.Collections.Immutable/5.0.0": {},
+      "System.Collections.Immutable/7.0.0": {},
       "System.ComponentModel.Annotations/4.7.0": {},
       "System.Configuration.ConfigurationManager/5.0.0": {
         "dependencies": {
@@ -1361,7 +1469,7 @@
           }
         }
       },
-      "System.Formats.Asn1/5.0.0": {},
+      "System.Formats.Asn1/7.0.0": {},
       "System.Globalization/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -1717,7 +1825,7 @@
       },
       "System.Security.Cryptography.Cng/5.0.0": {
         "dependencies": {
-          "System.Formats.Asn1": "5.0.0"
+          "System.Formats.Asn1": "7.0.0"
         }
       },
       "System.Security.Cryptography.Csp/4.3.0": {
@@ -1768,6 +1876,25 @@
           "System.Security.Cryptography.Primitives": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
+        }
+      },
+      "System.Security.Cryptography.Pkcs/7.0.2": {
+        "dependencies": {
+          "System.Formats.Asn1": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.723.27404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.723.27404"
+          }
         }
       },
       "System.Security.Cryptography.Primitives/4.3.0": {
@@ -1846,11 +1973,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Text.Encoding.CodePages/5.0.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0"
-        }
-      },
+      "System.Text.Encoding.CodePages/7.0.0": {},
       "System.Text.Encoding.Extensions/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -2084,6 +2207,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AngleSharp/0.17.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5MPI4bbixlwxb0W/smOMeIR+QlxMy5/5jD+WnIAw4pBC+7AhLPe5bS3cLgQMJyvd6q0A48sG+uYOt/ep406GLA==",
+      "path": "anglesharp/0.17.1",
+      "hashPath": "anglesharp.0.17.1.nupkg.sha512"
+    },
+    "AngleSharp.Css/0.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bg0AcugmX6BFEi/DHG61QrwRU8iuiX4H8LZehdIzYdqOM/dgb3BsCTzNIcc1XADn4+xfQEdVwJYTSwUxroL4vg==",
+      "path": "anglesharp.css/0.17.0",
+      "hashPath": "anglesharp.css.0.17.0.nupkg.sha512"
+    },
     "Azure.Core/1.24.0": {
       "type": "package",
       "serviceable": true,
@@ -2097,6 +2234,13 @@
       "sha512": "sha512-EycyMsb6rD2PK9P0SyibFfEhvWWttdrYhyPF4f41uzdB/44yQlV+2Wehxyg489Rj6gbPvSPgbKq0xsHJBhipZA==",
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
+    },
+    "BouncyCastle.Cryptography/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A6Zr52zVqJKt18ZBsTnX0qhG0kwIQftVAjLmszmkiR/trSp8H+xj1gUOzk7XHwaKgyREMSV1v9XaKrBUeIOdvQ==",
+      "path": "bouncycastle.cryptography/2.2.1",
+      "hashPath": "bouncycastle.cryptography.2.2.1.nupkg.sha512"
     },
     "Castle.Core/5.1.1": {
       "type": "package",
@@ -2139,6 +2283,13 @@
       "sha512": "sha512-WGSvZnoIZnzpz3d+njBrtvqcFycqbqdfmdeWmlR5KQbW9DXxYIB6oHb9npZO5s5iV8ct8s28IUvI8p9b2SrGkQ==",
       "path": "graphql.dataloader/4.8.0",
       "hashPath": "graphql.dataloader.4.8.0.nupkg.sha512"
+    },
+    "HtmlSanitizer/8.0.692": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dZrQfEET9PPgBVHsGT5EWa9Uv2hvrSonYQPNBSbURgEL/fKEokT/740abbSadUxNq3icWZVbqLGGzuTFEsNDNA==",
+      "path": "htmlsanitizer/8.0.692",
+      "hashPath": "htmlsanitizer.8.0.692.nupkg.sha512"
     },
     "Microsoft.AspNetCore.JsonPatch/7.0.10": {
       "type": "package",
@@ -2378,12 +2529,26 @@
       "path": "microsoft.win32.systemevents/5.0.0",
       "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
     },
+    "MimeKit/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HlfWiJ6t40r8u/rCK2p/8dm1ILiWw4XHucm2HImDYIFS3uZe7IKZyaCDafEoZR7VG7AW1JQxNPQCAxmAnJfRvA==",
+      "path": "mimekit/4.2.0",
+      "hashPath": "mimekit.4.2.0.nupkg.sha512"
+    },
     "MySqlConnector/2.2.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-k5wwd56u2WoIVLxeKsUHl8WS27shGluK6yLwziAnJwERnMQ5TsAFHRpr6EKEfpLwGF+FwrbmJXUdCk9+EU7Wrw==",
       "path": "mysqlconnector/2.2.1",
       "hashPath": "mysqlconnector.2.2.1.nupkg.sha512"
+    },
+    "NCrontab/3.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2yzZXZLI0YpxrNgWnW/4xoo7ErLgWJIwTljRVEJ3hyjc7Kw9eGdjbFZGP1AhBuTUEZQ443PgZifG1yox6Qo1/A==",
+      "path": "ncrontab/3.3.3",
+      "hashPath": "ncrontab.3.3.3.nupkg.sha512"
     },
     "NETStandard.Library/1.6.1": {
       "type": "package",
@@ -2406,12 +2571,26 @@
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     },
+    "NodaTime/3.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EzjwDOtsETlXWBDE6qvTQqc3guP+9xrAOf9j1mHL++UD4VeZay+dbCPNnXyZhoQMkKAOZ/+hIOtz7STl0Rkknw==",
+      "path": "nodatime/3.1.9",
+      "hashPath": "nodatime.3.1.9.nupkg.sha512"
+    },
     "Npgsql/7.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-tOBFksJZ2MiEz8xtDUgS5IG19jVO3nSP15QDYWiiGpXHe0PsLoQBts2Sg3hHKrrLTuw+AjsJz9iKvvGNHyKDIg==",
       "path": "npgsql/7.0.0",
       "hashPath": "npgsql.7.0.0.nupkg.sha512"
+    },
+    "OrchardCore/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jz89E8D/gm9+cf+NDvFHTtN7DWt1tyPu5O8Ijtrt0EGsWUG7dqzFk8EwmRpeoyI4A3hBpYPGHjRGgGIyKGrMJg==",
+      "path": "orchardcore/1.7.0",
+      "hashPath": "orchardcore.1.7.0.nupkg.sha512"
     },
     "OrchardCore.Abstractions/1.7.0": {
       "type": "package",
@@ -2552,6 +2731,13 @@
       "sha512": "sha512-k0eulfXzi0/A6v2nIozAzgEwLqTooUk8J4PjtR5T1nn5zpxmQJfiW4QQtsj3mgLxrtAAbaicyLY14qyJFFr9xQ==",
       "path": "orchardcore.indexing.abstractions/1.7.0",
       "hashPath": "orchardcore.indexing.abstractions.1.7.0.nupkg.sha512"
+    },
+    "OrchardCore.Infrastructure/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KBMR/setSJgJPGqK6dtEv2VFykp0//bN47wBf3KraeFhUdse1gN/uNfTfZp1cf9gQlh/vV8nA2fp/JpTi4KA4Q==",
+      "path": "orchardcore.infrastructure/1.7.0",
+      "hashPath": "orchardcore.infrastructure.1.7.0.nupkg.sha512"
     },
     "OrchardCore.Infrastructure.Abstractions/1.7.0": {
       "type": "package",
@@ -2833,12 +3019,12 @@
       "path": "system.collections.concurrent/4.3.0",
       "hashPath": "system.collections.concurrent.4.3.0.nupkg.sha512"
     },
-    "System.Collections.Immutable/5.0.0": {
+    "System.Collections.Immutable/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FXkLXiK0sVVewcso0imKQoOxjoPAj42R8HtjjbSjVPAzwDfzoyoznWxgA3c38LDbN9SJux1xXoXYAhz98j7r2g==",
-      "path": "system.collections.immutable/5.0.0",
-      "hashPath": "system.collections.immutable.5.0.0.nupkg.sha512"
+      "sha512": "sha512-dQPcs0U1IKnBdRDBkrCTi1FoajSTBzLcVTpjO4MBCMC7f4pDOIPzgBoX8JjG7X6uZRJ8EBxsi8+DR1JuwjnzOQ==",
+      "path": "system.collections.immutable/7.0.0",
+      "hashPath": "system.collections.immutable.7.0.0.nupkg.sha512"
     },
     "System.ComponentModel.Annotations/4.7.0": {
       "type": "package",
@@ -2903,12 +3089,12 @@
       "path": "system.drawing.common/5.0.0",
       "hashPath": "system.drawing.common.5.0.0.nupkg.sha512"
     },
-    "System.Formats.Asn1/5.0.0": {
+    "System.Formats.Asn1/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MTvUIktmemNB+El0Fgw9egyqT9AYSIk6DTJeoDSpc3GIHxHCMo8COqkWT1mptX5tZ1SlQ6HJZ0OsSvMth1c12w==",
-      "path": "system.formats.asn1/5.0.0",
-      "hashPath": "system.formats.asn1.5.0.0.nupkg.sha512"
+      "sha512": "sha512-+nfpV0afLmvJW8+pLlHxRjz3oZJw4fkyU9MMEaMhCsHi/SN9bGF9q79ROubDiwTiCHezmK0uCWkPP7tGFP/4yg==",
+      "path": "system.formats.asn1/7.0.0",
+      "hashPath": "system.formats.asn1.7.0.0.nupkg.sha512"
     },
     "System.Globalization/4.3.0": {
       "type": "package",
@@ -3197,6 +3383,13 @@
       "path": "system.security.cryptography.openssl/4.3.0",
       "hashPath": "system.security.cryptography.openssl.4.3.0.nupkg.sha512"
     },
+    "System.Security.Cryptography.Pkcs/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xhFNJOcQSWhpiVGLLBQYoxAltQSQVycMkwaX1z7I7oEdT9Wr0HzSM1yeAbfoHaERIYd5s6EpLSOLs2qMchSKlA==",
+      "path": "system.security.cryptography.pkcs/7.0.2",
+      "hashPath": "system.security.cryptography.pkcs.7.0.2.nupkg.sha512"
+    },
     "System.Security.Cryptography.Primitives/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -3239,12 +3432,12 @@
       "path": "system.text.encoding/4.3.0",
       "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
     },
-    "System.Text.Encoding.CodePages/5.0.0": {
+    "System.Text.Encoding.CodePages/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NyscU59xX6Uo91qvhOs2Ccho3AR2TnZPomo1Z0K6YpyztBPM/A5VbkzOO19sy3A3i1TtEnTxA7bCe3Us+r5MWg==",
-      "path": "system.text.encoding.codepages/5.0.0",
-      "hashPath": "system.text.encoding.codepages.5.0.0.nupkg.sha512"
+      "sha512": "sha512-LSyCblMpvOe0N3E+8e0skHcrIhgV2huaNcjUUEa8hRtgEAm36aGkRoC8Jxlb6Ra6GSfF29ftduPNywin8XolzQ==",
+      "path": "system.text.encoding.codepages/7.0.0",
+      "hashPath": "system.text.encoding.codepages.7.0.0.nupkg.sha512"
     },
     "System.Text.Encoding.Extensions/4.3.0": {
       "type": "package",

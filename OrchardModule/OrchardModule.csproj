@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="OrchardCore.ContentFields" Version="1.7.0" />
     <PackageReference Include="OrchardCore.DisplayManagement" Version="1.7.0" />
+    <PackageReference Include="OrchardCore.Infrastructure" Version="1.7.0" />
     <PackageReference Include="OrchardCore.Media.Abstractions" Version="1.7.0" />
     <PackageReference Include="OrchardCore.Module.Targets" Version="1.7.0" />
   </ItemGroup>

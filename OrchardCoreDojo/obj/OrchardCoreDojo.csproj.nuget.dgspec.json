@@ -211,6 +211,10 @@
               "target": "Package",
               "version": "[1.7.0, )"
             },
+            "OrchardCore.Infrastructure": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
             "OrchardCore.Media.Abstractions": {
               "target": "Package",
               "version": "[1.7.0, )"
