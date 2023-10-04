@@ -1593,6 +1593,26 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "OrchardCore.Navigation.Core/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "OrchardCore.Admin.Abstractions": "1.7.0",
+          "OrchardCore.Infrastructure.Abstractions": "1.7.0"
+        },
+        "compile": {
+          "lib/net7.0/OrchardCore.Navigation.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/OrchardCore.Navigation.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "OrchardCore.Queries.Abstractions/1.7.0": {
         "type": "package",
         "compile": {
@@ -5502,6 +5522,22 @@
         "lib/net7.0/OrchardCore.Mvc.Core.xml",
         "orchardcore.mvc.core.1.7.0.nupkg.sha512",
         "orchardcore.mvc.core.nuspec"
+      ]
+    },
+    "OrchardCore.Navigation.Core/1.7.0": {
+      "sha512": "h4VIyeBVjsh0/bSurl4lF/vZjZHgqV65Nd/3/rXFJ8NkVaYqSDsmjYjKF4F3IBIGJuTP049tUak9pQdM0wmy3g==",
+      "type": "package",
+      "path": "orchardcore.navigation.core/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.Navigation.Core.dll",
+        "lib/net6.0/OrchardCore.Navigation.Core.xml",
+        "lib/net7.0/OrchardCore.Navigation.Core.dll",
+        "lib/net7.0/OrchardCore.Navigation.Core.xml",
+        "orchardcore.navigation.core.1.7.0.nupkg.sha512",
+        "orchardcore.navigation.core.nuspec"
       ]
     },
     "OrchardCore.Queries.Abstractions/1.7.0": {
@@ -10087,7 +10123,8 @@
       "OrchardCore.DisplayManagement >= 1.7.0",
       "OrchardCore.Infrastructure >= 1.7.0",
       "OrchardCore.Media.Abstractions >= 1.7.0",
-      "OrchardCore.Module.Targets >= 1.7.0"
+      "OrchardCore.Module.Targets >= 1.7.0",
+      "OrchardCore.Navigation.Core >= 1.7.0"
     ]
   },
   "packageFolders": {
@@ -10151,6 +10188,10 @@
             "version": "[1.7.0, )"
           },
           "OrchardCore.Module.Targets": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
+          "OrchardCore.Navigation.Core": {
             "target": "Package",
             "version": "[1.7.0, )"
           }

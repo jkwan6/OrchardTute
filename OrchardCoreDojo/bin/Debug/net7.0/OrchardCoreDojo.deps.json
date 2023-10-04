@@ -5772,7 +5772,8 @@
           "OrchardCore.DisplayManagement": "1.7.0",
           "OrchardCore.Infrastructure": "1.7.0",
           "OrchardCore.Media.Abstractions": "1.7.0",
-          "OrchardCore.Module.Targets": "1.7.0"
+          "OrchardCore.Module.Targets": "1.7.0",
+          "OrchardCore.Navigation.Core": "1.7.0"
         },
         "runtime": {
           "OrchardModule.dll": {}

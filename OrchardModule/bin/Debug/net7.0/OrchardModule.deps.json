@@ -12,7 +12,8 @@
           "OrchardCore.DisplayManagement": "1.7.0",
           "OrchardCore.Infrastructure": "1.7.0",
           "OrchardCore.Media.Abstractions": "1.7.0",
-          "OrchardCore.Module.Targets": "1.7.0"
+          "OrchardCore.Module.Targets": "1.7.0",
+          "OrchardCore.Navigation.Core": "1.7.0"
         },
         "runtime": {
           "OrchardModule.dll": {}
@@ -1066,6 +1067,18 @@
         },
         "runtime": {
           "lib/net7.0/OrchardCore.Mvc.Core.dll": {
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
+          }
+        }
+      },
+      "OrchardCore.Navigation.Core/1.7.0": {
+        "dependencies": {
+          "OrchardCore.Admin.Abstractions": "1.7.0",
+          "OrchardCore.Infrastructure.Abstractions": "1.7.0"
+        },
+        "runtime": {
+          "lib/net7.0/OrchardCore.Navigation.Core.dll": {
             "assemblyVersion": "1.7.0.0",
             "fileVersion": "1.7.0.0"
           }
@@ -2780,6 +2793,13 @@
       "sha512": "sha512-wqMfy0+jeomHQdnAm/b4GfVkRkBhHQNsoReCqDluDHtCeJ8Kt0Oi2Dq9Q7IuR8XazJaUw8yXr7hA1Cs+7FfoaA==",
       "path": "orchardcore.mvc.core/1.7.0",
       "hashPath": "orchardcore.mvc.core.1.7.0.nupkg.sha512"
+    },
+    "OrchardCore.Navigation.Core/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h4VIyeBVjsh0/bSurl4lF/vZjZHgqV65Nd/3/rXFJ8NkVaYqSDsmjYjKF4F3IBIGJuTP049tUak9pQdM0wmy3g==",
+      "path": "orchardcore.navigation.core/1.7.0",
+      "hashPath": "orchardcore.navigation.core.1.7.0.nupkg.sha512"
     },
     "OrchardCore.Queries.Abstractions/1.7.0": {
       "type": "package",

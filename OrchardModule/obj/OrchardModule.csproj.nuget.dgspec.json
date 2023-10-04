@@ -63,6 +63,10 @@
             "OrchardCore.Module.Targets": {
               "target": "Package",
               "version": "[1.7.0, )"
+            },
+            "OrchardCore.Navigation.Core": {
+              "target": "Package",
+              "version": "[1.7.0, )"
             }
           },
           "imports": [
