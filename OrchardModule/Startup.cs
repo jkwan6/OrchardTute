@@ -18,6 +18,7 @@ using OrchardModule.Migrations;
 using OrchardModule.Models;
 using OrchardModule.Navigation;
 using OrchardModule.Permissions;
+using OrchardModule.Services;
 using YesSql.Indexes;
 
 namespace OrchardModule
@@ -33,6 +34,7 @@ namespace OrchardModule
             services.AddScoped<IDataMigration, PersonMigrations>();
             services.AddScoped<IPermissionProvider, PersonPagePermissions>();
             services.AddScoped<INavigationProvider, AdminMenu>();
+            services.AddSingleton<IBackgroundTask, DemoBackgroundTask>();
 
             services.Configure<MvcOptions>(options => options.Filters.Add(typeof(ShapeInjectingFilter)));
         }
