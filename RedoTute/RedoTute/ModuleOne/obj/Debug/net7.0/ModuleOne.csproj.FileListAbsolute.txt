@@ -1,0 +1,12 @@
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\ModuleOne\bin\Debug\net7.0\ModuleOne.deps.json
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\ModuleOne\bin\Debug\net7.0\ModuleOne.dll
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\ModuleOne\bin\Debug\net7.0\ModuleOne.pdb
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\ModuleOne\obj\Debug\net7.0\ModuleOne.csproj.AssemblyReference.cache
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\ModuleOne\obj\Debug\net7.0\ModuleOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\ModuleOne\obj\Debug\net7.0\ModuleOne.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\ModuleOne\obj\Debug\net7.0\ModuleOne.AssemblyInfo.cs
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\ModuleOne\obj\Debug\net7.0\ModuleOne.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\ModuleOne\obj\Debug\net7.0\ModuleOne.dll
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\ModuleOne\obj\Debug\net7.0\refint\ModuleOne.dll
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\ModuleOne\obj\Debug\net7.0\ModuleOne.pdb
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\ModuleOne\obj\Debug\net7.0\ref\ModuleOne.dll

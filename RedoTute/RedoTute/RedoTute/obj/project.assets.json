@@ -9397,6 +9397,19 @@
             "related": ".xml"
           }
         }
+      },
+      "ModuleOne/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "OrchardCore.Module.Targets": "1.7.0"
+        },
+        "compile": {
+          "bin/placeholder/ModuleOne.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModuleOne.dll": {}
+        }
       }
     }
   },
@@ -26445,10 +26458,16 @@
         "zstring.2.5.0.nupkg.sha512",
         "zstring.nuspec"
       ]
+    },
+    "ModuleOne/1.0.0": {
+      "type": "project",
+      "path": "../ModuleOne/ModuleOne.csproj",
+      "msbuildProject": "../ModuleOne/ModuleOne.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "ModuleOne >= 1.0.0",
       "OrchardCore.Application.Cms.Targets >= 1.7.0"
     ]
   },
@@ -26483,7 +26502,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\Documents\\C# Projects\\OrchardExperiments\\OrchardTutes\\OrchardCoreDojo\\RedoTute\\RedoTute\\ModuleOne\\ModuleOne.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\C# Projects\\OrchardExperiments\\OrchardTutes\\OrchardCoreDojo\\RedoTute\\RedoTute\\ModuleOne\\ModuleOne.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

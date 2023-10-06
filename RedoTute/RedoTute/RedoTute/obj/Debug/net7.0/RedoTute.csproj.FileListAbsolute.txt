@@ -423,3 +423,5 @@ C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreD
 C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\RedoTute\obj\Debug\net7.0\RedoTute.csproj.AssemblyReference.cache
 C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\RedoTute\obj\Debug\net7.0\RedoTute.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\RedoTute\obj\Debug\net7.0\RedoTute.csproj.CopyComplete
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\RedoTute\bin\Debug\net7.0\ModuleOne.dll
+C:\Users\User\Documents\C# Projects\OrchardExperiments\OrchardTutes\OrchardCoreDojo\RedoTute\RedoTute\RedoTute\bin\Debug\net7.0\ModuleOne.pdb

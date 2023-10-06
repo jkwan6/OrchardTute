@@ -99,6 +99,7 @@ using System.Reflection;
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.Alias")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.AdminMenu")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.AdminDashboard")]
+[assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("ModuleOne")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("RedoTute")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

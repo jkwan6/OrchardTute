@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "RedoTute/1.0.0": {
         "dependencies": {
+          "ModuleOne": "1.0.0",
           "OrchardCore.Application.Cms.Targets": "1.7.0"
         },
         "runtime": {
@@ -5751,6 +5752,14 @@
             "fileVersion": "2.5.0.0"
           }
         }
+      },
+      "ModuleOne/1.0.0": {
+        "dependencies": {
+          "OrchardCore.Module.Targets": "1.7.0"
+        },
+        "runtime": {
+          "ModuleOne.dll": {}
+        }
       }
     }
   },
@@ -9000,6 +9009,11 @@
       "sha512": "sha512-xd503npIf5kAN8LAugMlOthWIPQGsyp/rvLxuPlTrHFf28YyYyDfsdLz1n3tvd+87PiAXZrJh0gtWulWtcBTGg==",
       "path": "zstring/2.5.0",
       "hashPath": "zstring.2.5.0.nupkg.sha512"
+    },
+    "ModuleOne/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
